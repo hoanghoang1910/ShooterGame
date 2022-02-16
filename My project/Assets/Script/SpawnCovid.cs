@@ -5,8 +5,7 @@ using UnityEngine;
 public class SpawnCovid : MonoBehaviour
 {
 
-    public GameObject[] covidLocation = new GameObject[12];
-    public GameObject covid;
+    public GameObject[] covid;
     public float spawnTime = 1f;
     // Start is called before the first frame update
     void Start()
@@ -22,8 +21,7 @@ public class SpawnCovid : MonoBehaviour
 
     private void Spawn()
     {
-        int spawnPoint = Random.Range(0, 11);
-        GameObject gameObject = Instantiate(covid);
-        gameObject.transform.position = covidLocation[spawnPoint].transform.position;
+        int covidNum = Random.Range(0, 3);
+        GameObject gameObject = Instantiate(covid[covidNum]);
     }
 }

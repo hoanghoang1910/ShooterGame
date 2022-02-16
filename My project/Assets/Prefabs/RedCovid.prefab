@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4198370134463638397}
   - component: {fileID: 1241241833208647294}
-  - component: {fileID: 8975828912800532375}
   - component: {fileID: -7216027129793743517}
+  - component: {fileID: 3410762314090253371}
   m_Layer: 0
   m_Name: RedCovid
   m_TagString: covid
@@ -84,20 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8975828912800532375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294370784934090704}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c775b7423bfd8e7439b16000c43787e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 3
-  player: {fileID: 0}
 --- !u!58 &-7216027129793743517
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -114,3 +100,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.022004873}
   serializedVersion: 2
   m_Radius: 0.28414288
+--- !u!114 &3410762314090253371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294370784934090704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb61795d8c27f940b9a0ad5e6bd5161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  routes:
+  - {fileID: 2799527344904138475, guid: 69547ea9980f06844b0a6cb6bf1e7f55, type: 3}
+  - {fileID: 5149105954891969794, guid: d1bd13cbde0a59f44a914605e77cd2f2, type: 3}
+  - {fileID: 8743271763613555501, guid: 852ff59b545ffe242b3382edc6cc6a16, type: 3}
+  - {fileID: 8494067202877738411, guid: cdd1189726e7fc043858247d98b4c963, type: 3}
