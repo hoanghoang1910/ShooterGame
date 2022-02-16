@@ -17,6 +17,6 @@ public class covidAction : MonoBehaviour
     void Update()
     {
         float step = speed * Time.deltaTime;
-        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, step);
+        transform.position = Vector3.Slerp(transform.position, player.transform.position, step);
     }
 }

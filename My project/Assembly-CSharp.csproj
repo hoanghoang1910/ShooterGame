@@ -53,13 +53,15 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\SpawnCovid.cs" />
-    <Compile Include="Assets\Script\covidAction.cs" />
-    <Compile Include="Assets\Script\PlayerScript.cs" />
     <Compile Include="Assets\Script\Shooting.cs" />
     <Compile Include="Assets\Script\BulletScript.cs" />
+    <Compile Include="Assets\Script\PlayerScript.cs" />
     <Compile Include="Assets\Script\DetectCollision.cs" />
     <Compile Include="Assets\Script\SoundManager.cs" />
+    <Compile Include="Assets\Script\covidAction.cs" />
+    <Compile Include="Assets\Script\SpawnCovid.cs" />
+    <Compile Include="Assets\Script\Route.cs" />
+    <Compile Include="Assets\Script\BezierAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
